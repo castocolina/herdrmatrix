@@ -1,0 +1,9 @@
+{
+  "programs": {
+    "claude":   { "icon": "mods/phosphor-rain/icons/root.svg",   "tint": false, "tile": "#020a04" },
+    "codex":    { "icon": "mods/phosphor-rain/icons/byte.svg",   "tint": false, "tile": "#020a04" },
+    "opencode": { "icon": "mods/phosphor-rain/icons/moth.svg",   "tint": false, "tile": "#020a04" },
+    "cursor":   { "icon": "mods/phosphor-rain/icons/glitch.svg", "tint": false, "tile": "#020a04" },
+    "shell":    { "icon": "mods/phosphor-rain/icons/hoot.svg",   "tint": false, "tile": "#020a04" }
+  }
+}
