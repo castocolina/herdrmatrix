@@ -1,6 +1,6 @@
 ## How to install
 
-** This process is for HERDR Desktop **
+**This process is for HERDR Desktop**
 - Unzip the folder
 - Open a terminal and run open ``` ~/.config/herdr-app```
 - Copy ```layouts/```, ```themes/``` and ```mods/```
