@@ -19,7 +19,7 @@ Herdr in green-phosphor neon on near-black. The sidebar (spaces, agents) has a c
 
 - Agent colors: working `#00ff41`, done `#00ffd5`, blocked `#ff3b5c`, idle `#2a7a44`.
 - Any agent `blocked` turns the rain glyphs `blocked` red until no agent is blocked.
-- Each rain column falls at its own speed (70–150 ms per frame) and pulses in opacity (0.35–1, with a 0.9–1.8 s period).
+- Each row is one element with .frames at 110 ms. Columns share a speed but start at different offsets, and each row pulses in opacity (0.45–1, with a 1.1–1.8 s period).
 - Tab images follow position. Dragging a tab to a new spot gives it that spot's image.
 - The rain block can be resized by dragging its top divider (0–400px) or hidden with `layout.toggle {id: "rain"}`.
 
@@ -38,7 +38,7 @@ Herdr in green-phosphor neon on near-black. The sidebar (spaces, agents) has a c
 - A missing `tab-N.png` leaves an empty slot. There is no fallback to the program icon.
 - The cloned tabs mod expects nodes `panel` and `panel-body`. Without them, Files and Changes show `layout.show failed`.
 - Half-width katakana (U+FF71–U+FF9D) are not in JetBrains Mono and rely on system font fallback. If they show as boxes, swap `GLYPHS` for ASCII.
-- The rain has 198 animated cells. Lower `COLS`/`ROWS` on slow GPUs.
+- The rain has 9 animated elements, one per row. Per-cell animation (198 elements) made herdr-app check interrupt.
 
 ## Done when
 

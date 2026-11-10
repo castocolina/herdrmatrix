@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" font-family="JetBrains Mono, monospace">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#001a07"/><stop offset="1" stop-color="#000300"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="960" height="600" fill="url(#bg)"/>
+<rect width="230" height="600" fill="#010702"/><line x1="230" y1="0" x2="230" y2="600" stroke="#0d3b1c"/>
+<text x="18" y="34" fill="#4fbf6e" font-size="11">SPACES</text>
+<rect x="10" y="41" width="210" height="24" rx="3" fill="#0f4d24"/>
+<text x="22" y="58" fill="#9dffb4" font-size="13">herdr-app</text>
+<text x="22" y="86" fill="#4fbf6e" font-size="13">api</text>
+<text x="22" y="114" fill="#4fbf6e" font-size="13">dotfiles</text>
+<text x="18" y="170" fill="#4fbf6e" font-size="11">AGENTS</text>
+<circle cx="24" cy="192" r="4" fill="#00ff41" filter="url(#glow)"/><text x="36" y="196" fill="#9dffb4" font-size="12">claude · working</text>
+<circle cx="24" cy="218" r="4" fill="#00ffd5" filter="url(#glow)"/><text x="36" y="222" fill="#9dffb4" font-size="12">codex · done</text>
+<circle cx="24" cy="244" r="4" fill="#ff3b5c" filter="url(#glow)"/><text x="36" y="248" fill="#9dffb4" font-size="12">reviewer · blocked</text>
+<g filter="url(#glow)">
+<text x="12" y="485" fill="#00ff41" opacity="0.20" font-size="10">ｵ</text>
+<text x="12" y="495" fill="#00ff41" opacity="0.40" font-size="10">ｽ</text>
+<text x="12" y="505" fill="#00ff41" opacity="0.60" font-size="10">0</text>
+<text x="12" y="515" fill="#00ff41" opacity="0.80" font-size="10">ｲ</text>
+<text x="12" y="525" fill="#e6ffee" opacity="1.00" font-size="10">ｳ</text>
+<text x="23" y="515" fill="#00ff41" opacity="0.20" font-size="10">ｴ</text>
+<text x="23" y="525" fill="#00ff41" opacity="0.40" font-size="10">ｼ</text>
+<text x="23" y="535" fill="#00ff41" opacity="0.60" font-size="10">ﾃ</text>
+<text x="23" y="545" fill="#00ff41" opacity="0.80" font-size="10">ｲ</text>
+<text x="23" y="555" fill="#e6ffee" opacity="1.00" font-size="10">9</text>
+<text x="34" y="515" fill="#00ff41" opacity="0.20" font-size="10">ｷ</text>
+<text x="34" y="525" fill="#00ff41" opacity="0.40" font-size="10">ｲ</text>
+<text x="34" y="535" fill="#00ff41" opacity="0.60" font-size="10">ｳ</text>
+<text x="34" y="545" fill="#00ff41" opacity="0.80" font-size="10">ｾ</text>
+<text x="34" y="555" fill="#e6ffee" opacity="1.00" font-size="10">ｾ</text>
+<text x="45" y="455" fill="#00ff41" opacity="0.40" font-size="10">ｸ</text>
+<text x="45" y="465" fill="#00ff41" opacity="0.60" font-size="10">ｳ</text>
+<text x="45" y="475" fill="#00ff41" opacity="0.80" font-size="10">ﾂ</text>
+<text x="45" y="485" fill="#e6ffee" opacity="1.00" font-size="10">ｾ</text>
+<text x="56" y="455" fill="#00ff41" opacity="0.60" font-size="10">6</text>
+<text x="56" y="465" fill="#00ff41" opacity="0.80" font-size="10">ﾃ</text>
+<text x="56" y="475" fill="#e6ffee" opacity="1.00" font-size="10">ｴ</text>
+<text x="67" y="465" fill="#00ff41" opacity="0.20" font-size="10">0</text>
+<text x="67" y="475" fill="#00ff41" opacity="0.40" font-size="10">0</text>
+<text x="67" y="485" fill="#00ff41" opacity="0.60" font-size="10">ﾃ</text>
+<text x="67" y="495" fill="#00ff41" opacity="0.80" font-size="10">ｲ</text>
+<text x="67" y="505" fill="#e6ffee" opacity="1.00" font-size="10">ﾃ</text>
+<text x="78" y="525" fill="#00ff41" opacity="0.20" font-size="10">ｽ</text>
+<text x="78" y="535" fill="#00ff41" opacity="0.40" font-size="10">ｲ</text>
+<text x="78" y="545" fill="#00ff41" opacity="0.60" font-size="10">ｸ</text>
+<text x="78" y="555" fill="#00ff41" opacity="0.80" font-size="10">ｲ</text>
+<text x="78" y="565" fill="#e6ffee" opacity="1.00" font-size="10">ﾂ</text>
+<text x="89" y="455" fill="#00ff41" opacity="0.20" font-size="10">ｺ</text>
+<text x="89" y="465" fill="#00ff41" opacity="0.40" font-size="10">ｾ</text>
+<text x="89" y="475" fill="#00ff41" opacity="0.60" font-size="10">ｵ</text>
+<text x="89" y="485" fill="#00ff41" opacity="0.80" font-size="10">ﾂ</text>
+<text x="89" y="495" fill="#e6ffee" opacity="1.00" font-size="10">ｴ</text>
+<text x="100" y="525" fill="#00ff41" opacity="0.20" font-size="10">ｺ</text>
+<text x="100" y="535" fill="#00ff41" opacity="0.40" font-size="10">ﾂ</text>
+<text x="100" y="545" fill="#00ff41" opacity="0.60" font-size="10">6</text>
+<text x="100" y="555" fill="#00ff41" opacity="0.80" font-size="10">1</text>
+<text x="100" y="565" fill="#e6ffee" opacity="1.00" font-size="10">ｶ</text>
+<text x="111" y="455" fill="#00ff41" opacity="0.40" font-size="10">ﾃ</text>
+<text x="111" y="465" fill="#00ff41" opacity="0.60" font-size="10">ﾃ</text>
+<text x="111" y="475" fill="#00ff41" opacity="0.80" font-size="10">0</text>
+<text x="111" y="485" fill="#e6ffee" opacity="1.00" font-size="10">ｷ</text>
+<text x="122" y="485" fill="#00ff41" opacity="0.20" font-size="10">ｴ</text>
+<text x="122" y="495" fill="#00ff41" opacity="0.40" font-size="10">ﾂ</text>
+<text x="122" y="505" fill="#00ff41" opacity="0.60" font-size="10">2</text>
+<text x="122" y="515" fill="#00ff41" opacity="0.80" font-size="10">ｳ</text>
+<text x="122" y="525" fill="#e6ffee" opacity="1.00" font-size="10">ﾃ</text>
+<text x="133" y="455" fill="#00ff41" opacity="0.60" font-size="10">ﾄ</text>
+<text x="133" y="465" fill="#00ff41" opacity="0.80" font-size="10">ｷ</text>
+<text x="133" y="475" fill="#e6ffee" opacity="1.00" font-size="10">ﾀ</text>
+<text x="144" y="535" fill="#00ff41" opacity="0.20" font-size="10">ﾂ</text>
+<text x="144" y="545" fill="#00ff41" opacity="0.40" font-size="10">ｾ</text>
+<text x="144" y="555" fill="#00ff41" opacity="0.60" font-size="10">4</text>
+<text x="144" y="565" fill="#00ff41" opacity="0.80" font-size="10">ｻ</text>
+<text x="144" y="575" fill="#e6ffee" opacity="1.00" font-size="10">ｿ</text>
+<text x="155" y="525" fill="#00ff41" opacity="0.20" font-size="10">9</text>
+<text x="155" y="535" fill="#00ff41" opacity="0.40" font-size="10">ｿ</text>
+<text x="155" y="545" fill="#00ff41" opacity="0.60" font-size="10">ｼ</text>
+<text x="155" y="555" fill="#00ff41" opacity="0.80" font-size="10">ｺ</text>
+<text x="155" y="565" fill="#e6ffee" opacity="1.00" font-size="10">ｸ</text>
+<text x="166" y="555" fill="#00ff41" opacity="0.20" font-size="10">ｶ</text>
+<text x="166" y="565" fill="#00ff41" opacity="0.40" font-size="10">2</text>
+<text x="166" y="575" fill="#00ff41" opacity="0.60" font-size="10">4</text>
+<text x="166" y="585" fill="#00ff41" opacity="0.80" font-size="10">ｸ</text>
+<text x="166" y="595" fill="#e6ffee" opacity="1.00" font-size="10">ｳ</text>
+<text x="177" y="525" fill="#00ff41" opacity="0.20" font-size="10">ｺ</text>
+<text x="177" y="535" fill="#00ff41" opacity="0.40" font-size="10">ﾁ</text>
+<text x="177" y="545" fill="#00ff41" opacity="0.60" font-size="10">ﾀ</text>
+<text x="177" y="555" fill="#00ff41" opacity="0.80" font-size="10">8</text>
+<text x="177" y="565" fill="#e6ffee" opacity="1.00" font-size="10">ｻ</text>
+<text x="188" y="545" fill="#00ff41" opacity="0.20" font-size="10">ｿ</text>
+<text x="188" y="555" fill="#00ff41" opacity="0.40" font-size="10">ｺ</text>
+<text x="188" y="565" fill="#00ff41" opacity="0.60" font-size="10">ﾄ</text>
+<text x="188" y="575" fill="#00ff41" opacity="0.80" font-size="10">ｳ</text>
+<text x="188" y="585" fill="#e6ffee" opacity="1.00" font-size="10">ｴ</text>
+<text x="199" y="515" fill="#00ff41" opacity="0.20" font-size="10">ｾ</text>
+<text x="199" y="525" fill="#00ff41" opacity="0.40" font-size="10">ｶ</text>
+<text x="199" y="535" fill="#00ff41" opacity="0.60" font-size="10">4</text>
+<text x="199" y="545" fill="#00ff41" opacity="0.80" font-size="10">ｻ</text>
+<text x="199" y="555" fill="#e6ffee" opacity="1.00" font-size="10">ｵ</text>
+<text x="210" y="505" fill="#00ff41" opacity="0.20" font-size="10">ｾ</text>
+<text x="210" y="515" fill="#00ff41" opacity="0.40" font-size="10">ｲ</text>
+<text x="210" y="525" fill="#00ff41" opacity="0.60" font-size="10">1</text>
+<text x="210" y="535" fill="#00ff41" opacity="0.80" font-size="10">ｳ</text>
+<text x="210" y="545" fill="#e6ffee" opacity="1.00" font-size="10">4</text>
+</g>
+<rect x="231" y="0" width="729" height="30" fill="#010702"/>
+<rect x="244" y="6" width="80" height="18" rx="9" fill="#0f4d24" stroke="#0d3b1c"/><text x="284" y="19" text-anchor="middle" fill="#9dffb4" font-size="11">1</text>
+<rect x="334" y="6" width="80" height="18" rx="9" fill="#03100a" stroke="#0d3b1c"/><text x="374" y="19" text-anchor="middle" fill="#9dffb4" font-size="11">fix login</text>
+<rect x="424" y="6" width="80" height="18" rx="9" fill="#03100a" stroke="#0d3b1c"/><text x="464" y="19" text-anchor="middle" fill="#9dffb4" font-size="11">+</text>
+<rect x="238" y="36" width="356" height="556" rx="4" fill="#020a04" stroke="#00ff41" filter="url(#glow)"/>
+<rect x="600" y="36" width="354" height="556" rx="4" fill="#020a04" stroke="#0d3b1c"/>
+<text x="252" y="64" font-size="13"><tspan fill="#5cff8a">$ </tspan><tspan fill="#00ff41">claude</tspan></text>
+<text x="252" y="84" font-size="13"><tspan fill="#5cff8a"></tspan><tspan fill="#9dffb4">● Reading src/auth.rs</tspan></text>
+<text x="252" y="104" font-size="13"><tspan fill="#5cff8a"></tspan><tspan fill="#9dffb4">● Editing login handler</tspan></text>
+<text x="252" y="124" font-size="13"><tspan fill="#5cff8a"></tspan><tspan fill="#00ffd5">✓ 12 tests passed</tspan></text>
+<text x="252" y="144" font-size="13"><tspan fill="#5cff8a"></tspan><tspan fill=""></tspan></text>
+<text x="252" y="164" font-size="13"><tspan fill="#5cff8a">$ </tspan><tspan fill="#00ff41">git status</tspan></text>
+<text x="252" y="184" font-size="13"><tspan fill="#5cff8a"></tspan><tspan fill="#d4ff3a">modified: src/auth.rs</tspan></text>
+<rect x="252" y="200" width="8" height="15" fill="#00ff41"/>
+<text x="614" y="64" font-size="13"><tspan fill="#5cff8a">~/api ❯ </tspan><tspan fill="#00ff41">cargo run</tspan></text>
+<text x="614" y="84" font-size="13"><tspan fill="#5cff8a"></tspan><tspan fill="#4fbf6e">Compiling api v0.3.1</tspan></text>
+<text x="614" y="104" font-size="13"><tspan fill="#5cff8a"></tspan><tspan fill="#4fbf6e">Finished dev [unoptimized]</tspan></text>
+<text x="614" y="124" font-size="13"><tspan fill="#5cff8a"></tspan><tspan fill="#00ffd5">Listening on :8080</tspan></text>
+<text x="614" y="144" font-size="13"><tspan fill="#5cff8a"></tspan><tspan fill="#9dffb4">GET /health 200 1ms</tspan></text>
+<text x="614" y="164" font-size="13"><tspan fill="#5cff8a"></tspan><tspan fill="#ff3b5c">POST /login 401 3ms</tspan></text>
+</svg>
