@@ -2,22 +2,22 @@ import { View, div } from "gpui-kit";
 import { v_flex } from "gpui-base";
 import { theme, agents } from "herdr";
 
-// Lluvia digital: una fila = un elemento con .frames (9 elementos en total).
+// Digital rain: one row = one element with .frames (9 elements in total).
 const GLYPHS = "ｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎ0123456789Z:.=*+<>";
 const COLS = 22;
 const ROWS = 9;
 const CELL = 11;    // px
-const TRAIL = 4;    // largo de la estela
-const PERIOD = 16;  // frames por ciclo
-const SPEED = 110;  // ms por frame
+const TRAIL = 4;    // trail length
+const PERIOD = 16;  // frames per cycle
+const SPEED = 110;  // ms per frame
 
-// PRNG determinista: patrón estable entre renders.
+// Deterministic PRNG: the pattern is stable between renders.
 function rng(seed) {
   let s = seed >>> 0;
   return () => ((s = (s * 1664525 + 1013904223) >>> 0) / 4294967296);
 }
 
-// Cada fila guarda PERIOD cadenas de COLS caracteres; cada columna tiene su desfase.
+// Each row holds PERIOD strings of COLS characters; each column has its own offset.
 function buildRows() {
   const r = rng(7919);
   const offsets = Array.from({ length: COLS }, () => Math.floor(r() * PERIOD));
@@ -42,7 +42,7 @@ const RAIN = buildRows();
 export default class PhosphorRain extends View {
   render() {
     const t = theme();
-    // Agente bloqueado: la lluvia se tiñe de rojo neón.
+    // A blocked agent turns the rain neon red.
     const blocked = agents().some((a) => a.status === "blocked");
     const color = blocked ? t.blocked : t.accent;
 
