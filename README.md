@@ -63,6 +63,18 @@ Environment variables:
 | `HM_SRC` | unset | Local directory to copy from instead of downloading. It must contain `phosphor-rain/`. |
 | `HM_TARBALL_URL` | unset | Full tarball URL. Overrides `HM_REPO` and `HM_REF`. |
 
+## Layout options
+
+The layout is plain JSON, so its "knobs" are node properties in `~/.config/herdr-app/layouts/phosphor-rain.json`:
+
+| Option | How |
+| --- | --- |
+| Hide the Settings / Add machine footer | Add `"hidden": true` to the `sidebar-footer` node, or run `herdr-app do layout.toggle '{"id":"sidebar-footer"}'` |
+| Make the rain block taller or shorter | Drag its top divider, or `herdr-app do layout.resize '{"id":"rain","px":150}'` |
+| Hide the rain block | `herdr-app do layout.toggle '{"id":"rain"}'` |
+
+Re-running the installer with `--force` replaces the layout file, so keep local edits in a copy.
+
 ## What gets installed
 
 Into `~/.config/herdr-app`:

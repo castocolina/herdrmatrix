@@ -7,7 +7,7 @@ Herdr in green-phosphor neon on near-black. The sidebar (spaces, agents) has a c
 ## What you see
 
 - **Background:** `mods/phosphor-rain/backgrounds/phosphor-rain.jpg` (2560×1600, `cover`). It shows digital rain in three depths on a `#001a07` → `#000300` gradient, with scanlines and a vignette.
-- **Sidebar (left, 240px, `#010702e0`):** shipped `spaces` on top, shipped `agents` below, and a 150px `rain` block at the bottom. The rain is 22 columns × 9 rows of 11px half-width katakana, digits and symbols, falling in streaks of 4 in `#00ff41`. The bottom row is `#9dffb4`.
+- **Sidebar (left, 240px, `#010702e0`):** shipped `spaces` on top, shipped `agents` below, a 150px `rain` block, and the shipped `workspace-chrome` footer (69px, `sidebar-footer`) at the bottom with the Settings and Add machine rows. The rain is 22 columns × 9 rows of 11px half-width katakana, digits and symbols, falling in streaks of 4 in `#00ff41`. The bottom row is `#9dffb4`.
 - **Tabs (top, 30px, `#010702cc`):** the `phosphor-tabs` mod, a clone of the shipped `tabs`. Each tab shows an 18px image by position: `mods/phosphor-rain/tabs/tab-1.png` … `tab-9.png`, repeating from tab 10. The active tab has a 1px `#00ff41` border. The Files and Changes buttons open the right panel.
 - **Right panel (320px, hidden by default):** a `panel-body` stack with the shipped `files` and `changes` mods.
 - **Panes:** 8px padding and gap, radius 6, background `#020a04b3`, 1px border `#0d3b1c`. The focused pane's border is `#00ff41`. A single pane is framed too (`lone: true`).
@@ -22,6 +22,7 @@ Herdr in green-phosphor neon on near-black. The sidebar (spaces, agents) has a c
 - Each row is one element with .frames at 110 ms. Columns share a speed but start at different offsets, and each row pulses in opacity (0.45–1, with a 1.1–1.8 s period).
 - Tab images follow position. Dragging a tab to a new spot gives it that spot's image.
 - The rain block can be resized by dragging its top divider (0–400px) or hidden with `layout.toggle {id: "rain"}`.
+- The footer can be hidden with `layout.toggle {id: "sidebar-footer"}`, or permanently by adding `"hidden": true` to the `sidebar-footer` node in `layouts/phosphor-rain.json`. Settings stay reachable with `herdr-app do app.settings`.
 
 ## Built from
 

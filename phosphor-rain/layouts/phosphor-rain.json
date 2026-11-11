@@ -20,7 +20,9 @@
         { "id": "spaces", "type": "block", "content": { "mod": "spaces" } },
         { "id": "agents", "type": "block", "content": { "mod": "agents" } },
         { "id": "rain", "type": "block", "size": { "px": 150 }, "min": 0, "max": 400,
-          "content": { "mod": "phosphor-rain" } }
+          "content": { "mod": "phosphor-rain" } },
+        { "id": "sidebar-footer", "type": "block", "size": { "px": 69 },
+          "content": { "mod": "workspace-chrome", "props": { "footer": true } } }
       ]
     },
     {
