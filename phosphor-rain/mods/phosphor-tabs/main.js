@@ -2,7 +2,7 @@ import { View, div, svg, image } from "gpui-kit";
 import { h_flex } from "gpui-base";
 import { spaces, panes, run, openOverlay, theme, window, shared, layout, settings } from "herdr";
 
-// Imágenes por posición: mods/phosphor-rain/tabs/tab-1..9.png
+// Images by position: mods/phosphor-rain/tabs/tab-1..9.png
 const TAB_DIR = "mods/phosphor-rain/tabs";
 const TAB_COUNT = 9;
 const TAB_ICON = 18; // px
@@ -60,7 +60,7 @@ export default class Tabs extends View {
     const item = (c, i) => {
       const program = panes().find(p => p.tab === c.id && p.program?.agent)?.program ?? panes().find(p => p.tab === c.id)?.program;
       const name = /^tb\d+$/.test(c.name) ? program?.name ?? "Terminal" : c.name;
-      // Posición 1..9, se repite desde el tab 10.
+      // Position 1..9, repeating from tab 10.
       const tabImage = `${TAB_DIR}/tab-${(i % TAB_COUNT) + 1}.png`;
       const icon = tabImage
         ? image(tabImage).size(TAB_ICON).flex_none().rounded(4)

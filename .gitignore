@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# Logs and local
+*.log
+.env
+.env.*
+*.error
+*.reset-*
+herdr-shot.png
+
+# Agent and tool scratch
+.superpowers/
+.pi/
+graphify-out/
+node_modules/
+
+# Local agent instructions
+AGENTS.local.md
+
+# Planning artifacts
+docs/superpowers/

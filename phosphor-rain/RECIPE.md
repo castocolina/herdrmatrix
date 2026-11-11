@@ -2,7 +2,7 @@
 
 Herdr in green-phosphor neon on near-black. The sidebar (spaces, agents) has a column of animated digital rain at its bottom. Each tab shows an avatar picked by its position, and the background is a full-window digital-rain image that shows through translucent pane cards. When any agent is blocked, the rain turns neon red.
 
-![Phosphor Rain](preview.png)
+![Phosphor Rain](preview.gif)
 
 ## What you see
 
@@ -18,7 +18,7 @@ Herdr in green-phosphor neon on near-black. The sidebar (spaces, agents) has a c
 ## How it behaves
 
 - Agent colors: working `#00ff41`, done `#00ffd5`, blocked `#ff3b5c`, idle `#2a7a44`.
-- Any agent `blocked` turns the rain glyphs `blocked` red until no agent is blocked.
+- Any agent `blocked` turns the rain glyphs red (`blocked` color) except the bottom row, which stays `#9dffb4`, until no agent is blocked.
 - Each row is one element with .frames at 110 ms. Columns share a speed but start at different offsets, and each row pulses in opacity (0.45–1, with a 1.1–1.8 s period).
 - Tab images follow position. Dragging a tab to a new spot gives it that spot's image.
 - The rain block can be resized by dragging its top divider (0–400px) or hidden with `layout.toggle {id: "rain"}`.
