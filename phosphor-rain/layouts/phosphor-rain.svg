@@ -103,6 +103,9 @@
 <text x="210" y="535" fill="#00ff41" opacity="0.80" font-size="10">ｳ</text>
 <text x="210" y="545" fill="#e6ffee" opacity="1.00" font-size="10">4</text>
 </g>
+<rect x="0" y="548" width="230" height="52" fill="#010702"/><line x1="0" y1="548" x2="230" y2="548" stroke="#0d3b1c"/>
+<text x="18" y="571" fill="#4fbf6e" font-size="12">&#9881; Settings</text>
+<text x="18" y="592" fill="#2a7a44" font-size="12">+ Add machine</text>
 <rect x="231" y="0" width="729" height="30" fill="#010702"/>
 <rect x="244" y="6" width="80" height="18" rx="9" fill="#0f4d24" stroke="#0d3b1c"/><text x="284" y="19" text-anchor="middle" fill="#9dffb4" font-size="11">1</text>
 <rect x="334" y="6" width="80" height="18" rx="9" fill="#03100a" stroke="#0d3b1c"/><text x="374" y="19" text-anchor="middle" fill="#9dffb4" font-size="11">fix login</text>
